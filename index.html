@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- redux cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.1/redux.min.js"
+      integrity="sha512-1/8Tj23BRrWnKZXeBruk6wTnsMJbi/lJsk9bsRgVwb6j5q39n0A00gFjbCTaDo5l5XrPVv4DZXftrJExhRF/Ug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <header>
+        <img src="images/logo.svg" alt="ping-logo" class="ping-logo" />
+      </header>
+
+      <main>
+        <!-- Introduction -->
+        <div class="introduction">
+          <h1 class="introduction__title">
+            We are launching <span>soon!</span>
+          </h1>
+
+          <p class="introduction__subtitle">Subscribe and get notified</p>
+        </div>
+
+        <!-- form -->
+        <form action="#" id="form">
+          <label for="email">
+            <input
+              type="email"
+              placeholder="Your email address..."
+              id="email"
+              class="email-input"
+            />
+            <p class="error-msg" id="error"></p>
+          </label>
+
+          <button type="submit" class="submit-button">Notify Me</button>
+        </form>
+
+        <!-- dashboard image -->
+        <img
+          src="images/illustration-dashboard.png"
+          alt="dashboard-illustration"
+          class="dashboard-illustration"
+        />
+
+        <!-- social media div -->
+        <div class="socials">
+          <a href="#">
+            <img src="images/facebook.svg" alt="facebook-logo" />
+          </a>
+
+          <a href="#">
+            <img src="images/twitter.svg" alt="twitter-logo" />
+          </a>
+
+          <a href="#">
+            <img src="images/instagram.svg" alt="instagram-logo" />
+          </a>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="index.js"></script>
+  </body>
+</html>
